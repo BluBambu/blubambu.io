@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wenjie Shi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="_css/index.css">
+
+</head>
+
+<body onload="Game.start()" onresize="Game.restart()">
+
+<div id="about">
+    <div class="container" style="height:250px">
+        <canvas id="pong_canvas"></canvas>
+        <div class="about-text-wrapper">
+            <div class="about-text-wrapper-post">
+                <p class="header-text">Hi there!</p>
+                <p class="desc-text">I'm Wenjie, I'm a software engineer! I like to work on programming projects in my
+                    free time, most of which you'll find  on this website.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Experience" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-2 left-section">
+                Experience
+            </div>
+            <div class="col-10 right-section">
+                <div class="job-row">
+                    <div class="left-align-text">
+                        <p class="job-employer">Microsoft</p>
+                        <p>Software Engineer</p>
+                    </div>
+                    <div class="right-align-text">Sept 2016 - Present</div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="job-row">
+                    <div class="left-align-text">
+                        <p class="job-employer">NASA Jet Propulsion Laboratory (JPL)</p>
+                        <p>Software Engineer Intern</p>
+                    </div>
+                    <div class="right-align-text">June 2015 - Aug 2015</div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="job-row">
+                    <div class="left-align-text">
+                        <p class="job-employer">UW Center for Game Science</p>
+                        <p>Research Assistant</p>
+                    </div>
+                    <div class="right-align-text">Dec 2014 - June 2015</div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="job-row">
+                    <div class="left-align-text">
+                        <p class="job-employer">University of Washington</p>
+                        <p>CSE 142 (Intro. to Programming) Teaching Assistant</p>
+                    </div>
+                    <div class="right-align-text">Sept 2014 - Dec 2014</div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div>
+                    <button class="btn btn-outline-primary btn-sm">Full Resume</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Projects" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-2 left-section">
+                Projects
+            </div>
+            <div class="col-10 right-section">
+                <div class="row project-row">
+                    <div class="col-8">
+                        <img src="_img/high_grade_miner.png">
+                    </div>
+                    <div class="col-4">
+                        <p class="project-title">High Grade Miner</p>
+                        <p>Fill in</p>
+                    </div>
+                </div>
+                <div class="row project-row">
+                    <div class="col-8">
+                        <img src="_img/sky_arena.png">
+                    </div>
+                    <div class="col-4">
+                        <p class="project-title">Sky Arena</p>
+                        <p>Fill in</p>
+                    </div>
+                </div>
+                <div class="row project-row">
+                    <div class="col-8">
+                        <img src="_img/multivoxel.png">
+                    </div>
+                    <div class="col-4">
+                        <p class="project-title">MultiVoxel</p>
+                        <p>Fill in</p>
+                    </div>
+                </div>
+                <div class="row project-row">
+                    <div class="col-8">
+                        <img src="_img/game_dev_club_website.png">
+                    </div>
+                    <div class="col-4">
+                        <p class="project-title">UW Game Dev Club Website</p>
+                        <p>Fill in</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-outline-primary btn-sm">All Projects</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <button class="btn btn-outline-primary btn-sm"><img class="footer-icon" src="_img/github.svg"></button>
+        <button class="btn btn-outline-primary btn-sm"><img class="footer-icon" src="_img/mail.svg"></button>
+    </div>
+</div>
+
+<script src="_js/objects.js"></script>
+<script src="_js/pong.js"></script>
+<script src="_js/game.js"></script>
+
+</body>
+</html>
