@@ -21,22 +21,23 @@ body {
 
 /* hi */
 
-#id {
+#intro {
     margin: 0 auto;
     text-align: center;
 }
 
-.about-text-wrapper {
-    text-align:center;
+.intro-wrapper {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 200px;
 }
 
-.about-text-wrapper-post {
-    color: white;
-    margin: 0 auto;
-    margin-top: -50%;
-    text-align:center;
-    position: relative;
-    width:40%;
+.intro-text-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .about-text-wrapper-post  .header-text {
