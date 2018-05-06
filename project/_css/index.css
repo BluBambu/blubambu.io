@@ -1,22 +1,15 @@
 /* General */
 
 body {
+    font-size: 20px;
     background: linear-gradient(to right, rgb(18, 216, 250) , rgb(20, 188, 241));
     font-family: 'Roboto', sans-serif;
 }
 
 .section {
     background-color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.left-section {
-    font-size: 24px;
-}
-
-.right-section {
-    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .button {
@@ -40,6 +33,11 @@ body {
 
 .button a {
     color: white;
+}
+
+.section-title {
+    font-size: 24px;
+    padding-right: 10px;
 }
 
 /* hi */
@@ -73,6 +71,10 @@ body {
 
 /* Experience */
 
+#experience {
+    font-size: 20px;
+}
+
 .left-align-text {
     float: left;
 }
@@ -96,14 +98,10 @@ body {
 
 /* Projects */
 
-.project-row img {
+.project-img {
     width: 100%;
     margin-right: 20px;
     margin-bottom: 30px;
-}
-
-.project-row {
-    font-size: 18px;
 }
 
 .project-title {
