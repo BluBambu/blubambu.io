@@ -2,42 +2,55 @@
 
 body {
     font-size: 16px;
-    background: linear-gradient(to right, rgb(18, 216, 250) , rgb(20, 188, 241));
+    background: url("..\\_img\\background.png") repeat fixed;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.section .container {
+    padding: 20px;
 }
 
 .section {
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .button {
     border-radius: 2px;
     border: none;
     padding: 5px 10px;
-    color: white;
+    color: rgb(50, 50, 50);
     background-color: rgb(18, 216, 250);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .button:hover {
+    color: rgb(50, 50, 50);
     background-color: rgb(20, 198, 241);
     box-shadow: 0 2px 4px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22);
 }
 
 .button:focus {
+    color: rgb(50, 50, 50);
     outline:0;
 }
 
 .button a {
-    color: white;
+    color: rgb(50, 50, 50);
 }
 
 .section-title {
-    font-size: 20px;
+    border-right: 1px solid white;
     padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 /* hi */
@@ -45,13 +58,19 @@ body {
 #intro {
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+#intro .container {
+    padding: 10px;
 }
 
 .intro-wrapper {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(50, 50, 50);
     height: 300px;
+    background: linear-gradient(to right, rgb(18, 216, 250) , rgb(20, 188, 241));
 }
 
 .intro-text-wrapper {
@@ -113,7 +132,10 @@ body {
 
 #footer {
     width: 100%;
-    height: 60px;
+}
+
+#footer .container {
+    padding-top: 10px;
 }
 
 .footer-icon {
